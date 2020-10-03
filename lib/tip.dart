@@ -17,8 +17,8 @@ class _tipState extends State<tip> {
     return Scaffold(
 
       appBar: new AppBar(
-        title: new Text("Bill Splitter",
-          style: new TextStyle(fontSize: 36,fontWeight: FontWeight.w600,color: Colors.purple,fontStyle: FontStyle.italic),),
+        title: new Text("BILL SPLITTER",
+          style: new TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.red,fontStyle: FontStyle.italic),),
         backgroundColor: Colors.white,
         centerTitle: true,
 
@@ -33,7 +33,7 @@ class _tipState extends State<tip> {
           children: <Widget>[
             new Container(
               
-              height: 180,
+              height: 185,
               width: 50,
               color: Colors.purpleAccent.shade50,
               decoration: new BoxDecoration(
